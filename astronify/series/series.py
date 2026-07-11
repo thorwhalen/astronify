@@ -684,7 +684,7 @@ class SeriesPreviews:
         # self.tremolo_vals[self.tremolo_vals > 15] = 15
 
         if verbose:
-            print("Total Expected area = {0:0f}".format(total_area))
+            print(f"Total Expected area = {total_area:0f}")
             print(" ")
             print("Area Values = ", np.asarray(area_vals))
             print(" ")
